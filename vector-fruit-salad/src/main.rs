@@ -4,6 +4,17 @@ A vector is a growable array. It can grow or shrink in size and is one of the mo
 useful data structures in Rust. A vector is represented using the Vec<T> type.
 */
 
+//TODO
+/*  
+Challenge Questions:
+
+    Can you modify the program to accept fruits from the user and then add them to the fruit salad?
+
+    The SliceRandom trait provides a method choose(&self, rng: &R) -> Option<&T>. Can you use this to select a random fruit from the salad?
+
+    Can you create a feature in the program to add a specific number of random fruits (selected from a predefined list) to the salad?
+*/
+
 use rand::seq::SliceRandom; // rand is a random number generation library in Rust
 use rand::thread_rng;
 
